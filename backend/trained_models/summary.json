@@ -1,0 +1,10 @@
+{
+  "earliest_signal": "2021",
+  "model_consensus_alarm": "2022",
+  "altman_distress_entry": 2020,
+  "xgboost_alarm_year": 2020,
+  "prophet_zero_cash": "2024-Q4",
+  "cox_alarm_month": "Jul'22",
+  "cox_concordance": 0.963,
+  "xgb_cv_auc": 0.938
+}

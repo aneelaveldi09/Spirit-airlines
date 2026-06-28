@@ -1,0 +1,92 @@
+{
+  "cv_auc": 0.938,
+  "yearly_risk": [
+    {
+      "year": 2018,
+      "bankruptcy_prob": 24.3
+    },
+    {
+      "year": 2019,
+      "bankruptcy_prob": 24.3
+    },
+    {
+      "year": 2020,
+      "bankruptcy_prob": 91.7
+    },
+    {
+      "year": 2021,
+      "bankruptcy_prob": 89.7
+    },
+    {
+      "year": 2022,
+      "bankruptcy_prob": 91.5
+    },
+    {
+      "year": 2023,
+      "bankruptcy_prob": 91.5
+    }
+  ],
+  "shap_values": [
+    {
+      "feature": "cash_to_debt",
+      "mean_abs_shap": 1.5997,
+      "direction": "risk"
+    },
+    {
+      "feature": "debt_to_assets",
+      "mean_abs_shap": 0.3427,
+      "direction": "risk"
+    },
+    {
+      "feature": "equity_ratio",
+      "mean_abs_shap": 0.1385,
+      "direction": "risk"
+    },
+    {
+      "feature": "load_factor",
+      "mean_abs_shap": 0.035,
+      "direction": "safe"
+    },
+    {
+      "feature": "interest_coverage",
+      "mean_abs_shap": 0.0193,
+      "direction": "risk"
+    },
+    {
+      "feature": "fuel_pct_revenue",
+      "mean_abs_shap": 0.0139,
+      "direction": "safe"
+    },
+    {
+      "feature": "casm_rasm_spread",
+      "mean_abs_shap": 0.0,
+      "direction": "safe"
+    },
+    {
+      "feature": "profit_margin",
+      "mean_abs_shap": 0.0,
+      "direction": "safe"
+    }
+  ],
+  "feature_importance": {
+    "debt_to_assets": 0.1796,
+    "cash_to_debt": 0.3607,
+    "casm_rasm_spread": 0.0,
+    "interest_coverage": 0.0251,
+    "profit_margin": 0.0,
+    "load_factor": 0.0626,
+    "fuel_pct_revenue": 0.0134,
+    "equity_ratio": 0.3585
+  },
+  "alarm_year": 2020,
+  "features": [
+    "debt_to_assets",
+    "cash_to_debt",
+    "casm_rasm_spread",
+    "interest_coverage",
+    "profit_margin",
+    "load_factor",
+    "fuel_pct_revenue",
+    "equity_ratio"
+  ]
+}

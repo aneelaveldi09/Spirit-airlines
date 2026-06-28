@@ -1,0 +1,345 @@
+{
+  "cash_forecast": [
+    {
+      "quarter": "2018-Q1",
+      "actual": 1089,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2018-Q2",
+      "actual": 1102,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2018-Q3",
+      "actual": 1134,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2018-Q4",
+      "actual": 1070,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2019-Q1",
+      "actual": 1098,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2019-Q2",
+      "actual": 1145,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2019-Q3",
+      "actual": 1167,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2019-Q4",
+      "actual": 1124,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2020-Q1",
+      "actual": 1034,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2020-Q2",
+      "actual": 987,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2020-Q3",
+      "actual": 967,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2020-Q4",
+      "actual": 947,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2021-Q1",
+      "actual": 1034,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2021-Q2",
+      "actual": 1089,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2021-Q3",
+      "actual": 1134,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2021-Q4",
+      "actual": 1187,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2022-Q1",
+      "actual": 1098,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2022-Q2",
+      "actual": 1034,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2022-Q3",
+      "actual": 912,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2022-Q4",
+      "actual": 854,
+      "forecast": null,
+      "lower": null,
+      "upper": null
+    },
+    {
+      "quarter": "2023-Q1",
+      "actual": 801,
+      "forecast": 762.0,
+      "lower": 734.0,
+      "upper": 788.0
+    },
+    {
+      "quarter": "2023-Q2",
+      "actual": 712,
+      "forecast": 678.0,
+      "lower": 597.0,
+      "upper": 763.0
+    },
+    {
+      "quarter": "2023-Q3",
+      "actual": 634,
+      "forecast": 594.0,
+      "lower": 424.0,
+      "upper": 758.0
+    },
+    {
+      "quarter": "2023-Q4",
+      "actual": 612,
+      "forecast": 508.0,
+      "lower": 249.0,
+      "upper": 748.0
+    },
+    {
+      "quarter": "2024-Q1",
+      "actual": 423,
+      "forecast": 423.0,
+      "lower": 47.0,
+      "upper": 780.0
+    },
+    {
+      "quarter": "2024-Q2",
+      "actual": 234,
+      "forecast": 338.0,
+      "lower": -181.0,
+      "upper": 801.0
+    },
+    {
+      "quarter": "2024-Q3",
+      "actual": 123,
+      "forecast": 254.0,
+      "lower": -416.0,
+      "upper": 829.0
+    },
+    {
+      "quarter": "2024-Q4",
+      "actual": 87,
+      "forecast": 168.0,
+      "lower": -661.0,
+      "upper": 867.0
+    }
+  ],
+  "revenue_forecast": [
+    {
+      "quarter": "2018-Q1",
+      "actual": 751,
+      "forecast": null
+    },
+    {
+      "quarter": "2018-Q2",
+      "actual": 889,
+      "forecast": null
+    },
+    {
+      "quarter": "2018-Q3",
+      "actual": 921,
+      "forecast": null
+    },
+    {
+      "quarter": "2018-Q4",
+      "actual": 761,
+      "forecast": null
+    },
+    {
+      "quarter": "2019-Q1",
+      "actual": 812,
+      "forecast": null
+    },
+    {
+      "quarter": "2019-Q2",
+      "actual": 1012,
+      "forecast": null
+    },
+    {
+      "quarter": "2019-Q3",
+      "actual": 1089,
+      "forecast": null
+    },
+    {
+      "quarter": "2019-Q4",
+      "actual": 913,
+      "forecast": null
+    },
+    {
+      "quarter": "2020-Q1",
+      "actual": 489,
+      "forecast": null
+    },
+    {
+      "quarter": "2020-Q2",
+      "actual": 234,
+      "forecast": null
+    },
+    {
+      "quarter": "2020-Q3",
+      "actual": 467,
+      "forecast": null
+    },
+    {
+      "quarter": "2020-Q4",
+      "actual": 467,
+      "forecast": null
+    },
+    {
+      "quarter": "2021-Q1",
+      "actual": 398,
+      "forecast": null
+    },
+    {
+      "quarter": "2021-Q2",
+      "actual": 489,
+      "forecast": null
+    },
+    {
+      "quarter": "2021-Q3",
+      "actual": 698,
+      "forecast": null
+    },
+    {
+      "quarter": "2021-Q4",
+      "actual": 574,
+      "forecast": null
+    },
+    {
+      "quarter": "2022-Q1",
+      "actual": 978,
+      "forecast": null
+    },
+    {
+      "quarter": "2022-Q2",
+      "actual": 1389,
+      "forecast": null
+    },
+    {
+      "quarter": "2022-Q3",
+      "actual": 1612,
+      "forecast": null
+    },
+    {
+      "quarter": "2022-Q4",
+      "actual": 1067,
+      "forecast": null
+    },
+    {
+      "quarter": "2023-Q1",
+      "actual": 1089,
+      "forecast": 1332.0
+    },
+    {
+      "quarter": "2023-Q2",
+      "actual": 1467,
+      "forecast": 1427.0
+    },
+    {
+      "quarter": "2023-Q3",
+      "actual": 1589,
+      "forecast": 1523.0
+    },
+    {
+      "quarter": "2023-Q4",
+      "actual": 1037,
+      "forecast": 1620.0
+    },
+    {
+      "quarter": "2024-Q1",
+      "actual": 789,
+      "forecast": 1717.0
+    },
+    {
+      "quarter": "2024-Q2",
+      "actual": 698,
+      "forecast": 1813.0
+    },
+    {
+      "quarter": "2024-Q3",
+      "actual": 312,
+      "forecast": 1909.0
+    },
+    {
+      "quarter": "2024-Q4",
+      "actual": 93,
+      "forecast": 2006.0
+    }
+  ],
+  "zero_cash_date": "2024-Q4",
+  "training_cutoff": "Q4 2022",
+  "insight": "Cash reserves projected to hit critical threshold ($200M) by 2024-Q4. Revenue severely underperforming forecast from Q1 2024 onwards."
+}

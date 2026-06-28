@@ -1,0 +1,72 @@
+[
+  {
+    "year": 2018,
+    "z_score": 2.38,
+    "zone": "Grey Zone",
+    "x1_working_capital": 0.2419,
+    "x2_retained_earnings": 0.1856,
+    "x3_ebit": 0.1054,
+    "x4_market_cap": 0.8975,
+    "x5_revenue": 0.9435
+  },
+  {
+    "year": 2019,
+    "z_score": 2.196,
+    "zone": "Grey Zone",
+    "x1_working_capital": 0.2174,
+    "x2_retained_earnings": 0.1648,
+    "x3_ebit": 0.0841,
+    "x4_market_cap": 0.7881,
+    "x5_revenue": 0.9536
+  },
+  {
+    "year": 2020,
+    "z_score": 0.394,
+    "zone": "Distress",
+    "x1_working_capital": 0.1223,
+    "x2_retained_earnings": 0.0732,
+    "x3_ebit": -0.1143,
+    "x4_market_cap": 0.2125,
+    "x5_revenue": 0.3947
+  },
+  {
+    "year": 2021,
+    "z_score": 0.499,
+    "zone": "Distress",
+    "x1_working_capital": 0.1368,
+    "x2_retained_earnings": 0.0488,
+    "x3_ebit": -0.0782,
+    "x4_market_cap": 0.1382,
+    "x5_revenue": 0.4416
+  },
+  {
+    "year": 2022,
+    "z_score": 0.938,
+    "zone": "Distress",
+    "x1_working_capital": 0.0546,
+    "x2_retained_earnings": 0.0331,
+    "x3_ebit": -0.0587,
+    "x4_market_cap": 0.0915,
+    "x5_revenue": 0.9646
+  },
+  {
+    "year": 2023,
+    "z_score": 0.744,
+    "zone": "Distress",
+    "x1_working_capital": -0.0013,
+    "x2_retained_earnings": 0.022,
+    "x3_ebit": -0.1012,
+    "x4_market_cap": 0.0544,
+    "x5_revenue": 1.0165
+  },
+  {
+    "year": 2024,
+    "z_score": -0.419,
+    "zone": "Distress",
+    "x1_working_capital": -0.1349,
+    "x2_retained_earnings": -0.0341,
+    "x3_ebit": -0.2066,
+    "x4_market_cap": 0.0233,
+    "x5_revenue": 0.4589
+  }
+]
