@@ -7,6 +7,7 @@ import SignalsSection from "@/components/SignalsSection";
 import ModelsSection from "@/components/ModelsSection";
 import AdvancedModelsSection from "@/components/AdvancedModelsSection";
 import VerdictSection from "@/components/VerdictSection";
+import ComparisonSection from "@/components/ComparisonSection";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <StorySection />
       <FinancialsSection />
       <SignalsSection />
+      <ComparisonSection />
       <ModelsSection />
       <AdvancedModelsSection />
       <VerdictSection />

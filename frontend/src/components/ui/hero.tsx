@@ -3,7 +3,11 @@
 import { useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import { Button } from "@/components/ui/button";
+import { VideoText } from "@/components/ui/video-text";
 import { MoveRight, TrendingDown } from "lucide-react";
+
+// Spirit Airlines airplane / yellow livery footage — replace with official Spirit clip if available
+const SPIRIT_VIDEO = "https://videos.pexels.com/video-files/856340/856340-hd_1920_1080_30fps.mp4";
 
 interface Beam {
   x: number;
@@ -144,6 +148,19 @@ export const PremiumHero = () => {
 
       <div className="relative z-20 flex h-screen w-full items-center justify-center px-6 text-center">
         <div className="flex flex-col items-center gap-10 text-center max-w-4xl mx-auto">
+
+          {/* Video text banner */}
+          <div style={{ width: "100%", height: "clamp(100px, 18vw, 200px)", position: "relative" }}>
+            <VideoText
+              src={SPIRIT_VIDEO}
+              fontSize={18}
+              fontWeight="900"
+              fontFamily="sans-serif"
+              className="w-full h-full"
+            >
+              SPIRIT
+            </VideoText>
+          </div>
 
           {/* Badge */}
           <div className="flex items-center gap-2 px-4 py-2 rounded-full border text-sm font-semibold"
