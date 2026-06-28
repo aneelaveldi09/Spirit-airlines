@@ -144,57 +144,57 @@
       "quarter": "2023-Q1",
       "actual": 801,
       "forecast": 762.0,
-      "lower": 734.0,
-      "upper": 788.0
+      "lower": 736.0,
+      "upper": 790.0
     },
     {
       "quarter": "2023-Q2",
       "actual": 712,
       "forecast": 678.0,
-      "lower": 597.0,
-      "upper": 763.0
+      "lower": 602.0,
+      "upper": 768.0
     },
     {
       "quarter": "2023-Q3",
       "actual": 634,
       "forecast": 594.0,
-      "lower": 424.0,
-      "upper": 758.0
+      "lower": 437.0,
+      "upper": 764.0
     },
     {
       "quarter": "2023-Q4",
       "actual": 612,
       "forecast": 508.0,
-      "lower": 249.0,
-      "upper": 748.0
+      "lower": 259.0,
+      "upper": 777.0
     },
     {
       "quarter": "2024-Q1",
       "actual": 423,
       "forecast": 423.0,
-      "lower": 47.0,
-      "upper": 780.0
+      "lower": 61.0,
+      "upper": 805.0
     },
     {
       "quarter": "2024-Q2",
       "actual": 234,
       "forecast": 338.0,
-      "lower": -181.0,
-      "upper": 801.0
+      "lower": -147.0,
+      "upper": 854.0
     },
     {
       "quarter": "2024-Q3",
       "actual": 123,
       "forecast": 254.0,
-      "lower": -416.0,
-      "upper": 829.0
+      "lower": -346.0,
+      "upper": 908.0
     },
     {
       "quarter": "2024-Q4",
       "actual": 87,
       "forecast": 168.0,
-      "lower": -661.0,
-      "upper": 867.0
+      "lower": -568.0,
+      "upper": 982.0
     }
   ],
   "revenue_forecast": [

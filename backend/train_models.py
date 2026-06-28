@@ -72,7 +72,7 @@ def train_xgboost():
     from sklearn.preprocessing import StandardScaler
     from sklearn.pipeline import Pipeline
 
-    df = pd.read_csv(os.path.join(DATA_DIR, "airline_industry.csv"))
+    df = pd.read_csv(os.path.join(DATA_DIR, "airline_industry_v2.csv"))
 
     # Feature engineering
     df["debt_to_assets"] = df["total_debt"] / df["total_assets"]
@@ -287,7 +287,7 @@ def train_survival():
     print("\n[4/4] Training Cox Proportional Hazards survival model...")
     from lifelines import CoxPHFitter, KaplanMeierFitter
 
-    df = pd.read_csv(os.path.join(DATA_DIR, "airline_industry.csv"))
+    df = pd.read_csv(os.path.join(DATA_DIR, "airline_industry_v2.csv"))
 
     # Build survival dataset: one row per airline
     # duration = years of data we have, event = went_bankrupt
@@ -395,6 +395,13 @@ if __name__ == "__main__":
     prophet_results = train_prophet()
     survival_results = train_survival()
 
+    from models.lstm import run_lstm
+    from models.sentiment import run_sentiment
+    from models.ensemble import run_ensemble
+    lstm_results = run_lstm(TRAINED_DIR)
+    sentiment_results = run_sentiment(TRAINED_DIR)
+    ensemble_results = run_ensemble(TRAINED_DIR)
+
     # Save combined summary
     summary = {
         "earliest_signal": "2021",
@@ -405,6 +412,9 @@ if __name__ == "__main__":
         "cox_alarm_month": survival_results["alarm_month"],
         "cox_concordance": survival_results["concordance_index"],
         "xgb_cv_auc": xgb_results["cv_auc"],
+        "lstm_cash_rmse": lstm_results.get("cash", {}).get("rmse"),
+        "sentiment_alarm_quarters": sentiment_results.get("alarm_quarters", []),
+        "ensemble_alarm_year": ensemble_results.get("alarm_year"),
     }
 
     with open(os.path.join(TRAINED_DIR, "summary.json"), "w") as f:

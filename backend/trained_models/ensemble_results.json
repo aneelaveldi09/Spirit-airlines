@@ -1,0 +1,204 @@
+{
+  "yearly_ensemble": [
+    {
+      "year": 2018,
+      "z_norm": 0.0,
+      "xgb_prob": 0.43,
+      "cash_risk": 0.0307,
+      "survival_risk": 0.02,
+      "ensemble_prob": 0.3353,
+      "consensus_score": 33.5,
+      "verdict": "Watch"
+    },
+    {
+      "year": 2019,
+      "z_norm": 0.0657,
+      "xgb_prob": 0.526,
+      "cash_risk": 0.0,
+      "survival_risk": 0.025,
+      "ensemble_prob": 0.3728,
+      "consensus_score": 37.3,
+      "verdict": "Watch"
+    },
+    {
+      "year": 2020,
+      "z_norm": 0.7095,
+      "xgb_prob": 0.561,
+      "cash_risk": 0.1321,
+      "survival_risk": 0.04,
+      "ensemble_prob": 0.5277,
+      "consensus_score": 52.8,
+      "verdict": "High Risk"
+    },
+    {
+      "year": 2021,
+      "z_norm": 0.672,
+      "xgb_prob": 0.91,
+      "cash_risk": 0.0199,
+      "survival_risk": 0.055,
+      "ensemble_prob": 0.6183,
+      "consensus_score": 61.8,
+      "verdict": "High Risk"
+    },
+    {
+      "year": 2022,
+      "z_norm": 0.5152,
+      "xgb_prob": 0.893,
+      "cash_risk": 0.1403,
+      "survival_risk": 0.171,
+      "ensemble_prob": 0.6121,
+      "consensus_score": 61.2,
+      "verdict": "High Risk"
+    },
+    {
+      "year": 2023,
+      "z_norm": 0.5845,
+      "xgb_prob": 0.949,
+      "cash_risk": 0.3915,
+      "survival_risk": 0.777,
+      "ensemble_prob": 0.7405,
+      "consensus_score": 74.0,
+      "verdict": "High Risk"
+    },
+    {
+      "year": 2024,
+      "z_norm": 1.0,
+      "xgb_prob": 0.5,
+      "cash_risk": 0.8088,
+      "survival_risk": 0.777,
+      "ensemble_prob": 0.7309,
+      "consensus_score": 73.1,
+      "verdict": "High Risk"
+    }
+  ],
+  "feature_weights": {
+    "z_score": 0.3553,
+    "xgb": 0.2907,
+    "cash": 0.1594,
+    "survival": 0.1946
+  },
+  "raw_lr_coefficients": {
+    "z_norm": 0.805751,
+    "xgb_prob": 0.659206,
+    "cash_risk": 0.361358,
+    "survival_risk": 0.441298
+  },
+  "alarm_year": 2020,
+  "model_agreement": {
+    "2018": {
+      "signals": {
+        "altman": 0,
+        "xgboost": 0,
+        "prophet": 0,
+        "cox": 0,
+        "ensemble": 0
+      },
+      "models_flagging_distress": 0,
+      "full_consensus": false
+    },
+    "2019": {
+      "signals": {
+        "altman": 0,
+        "xgboost": 1,
+        "prophet": 0,
+        "cox": 0,
+        "ensemble": 0
+      },
+      "models_flagging_distress": 1,
+      "full_consensus": false
+    },
+    "2020": {
+      "signals": {
+        "altman": 1,
+        "xgboost": 1,
+        "prophet": 0,
+        "cox": 0,
+        "ensemble": 1
+      },
+      "models_flagging_distress": 3,
+      "full_consensus": false
+    },
+    "2021": {
+      "signals": {
+        "altman": 1,
+        "xgboost": 1,
+        "prophet": 0,
+        "cox": 0,
+        "ensemble": 1
+      },
+      "models_flagging_distress": 3,
+      "full_consensus": false
+    },
+    "2022": {
+      "signals": {
+        "altman": 1,
+        "xgboost": 1,
+        "prophet": 0,
+        "cox": 1,
+        "ensemble": 1
+      },
+      "models_flagging_distress": 4,
+      "full_consensus": false
+    },
+    "2023": {
+      "signals": {
+        "altman": 1,
+        "xgboost": 1,
+        "prophet": 1,
+        "cox": 1,
+        "ensemble": 1
+      },
+      "models_flagging_distress": 5,
+      "full_consensus": true
+    },
+    "2024": {
+      "signals": {
+        "altman": 1,
+        "xgboost": 0,
+        "prophet": 1,
+        "cox": 1,
+        "ensemble": 1
+      },
+      "models_flagging_distress": 4,
+      "full_consensus": false
+    }
+  },
+  "meta": {
+    "meta_learner": "LogisticRegression(C=1.0, class_weight=balanced)",
+    "features": [
+      "z_norm",
+      "xgb_prob",
+      "cash_risk",
+      "survival_risk"
+    ],
+    "training_years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "labels": {
+      "2018": 0,
+      "2019": 0,
+      "2020": 1,
+      "2021": 1,
+      "2022": 1,
+      "2023": 1,
+      "2024": 1
+    },
+    "safe_years": [
+      2018,
+      2019
+    ],
+    "distress_years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  }
+}

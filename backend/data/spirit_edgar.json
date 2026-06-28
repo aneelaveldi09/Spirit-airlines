@@ -1,0 +1,79 @@
+[
+  {
+    "year": 2018,
+    "source": "SEC_EDGAR",
+    "revenue": 3323034000,
+    "net_income": 155749000,
+    "total_assets": 5165457000,
+    "total_debt": 2024774000,
+    "cash": 1004733000,
+    "operating_expenses": 2972120000,
+    "interest_expense": null
+  },
+  {
+    "year": 2019,
+    "source": "SEC_EDGAR",
+    "revenue": 3830536000,
+    "net_income": 335255000,
+    "total_assets": 7043412000,
+    "total_debt": 1960453000,
+    "cash": 978957000,
+    "operating_expenses": 3329489000,
+    "interest_expense": null
+  },
+  {
+    "year": 2020,
+    "source": "SEC_EDGAR",
+    "revenue": 1810022000,
+    "net_income": -27828000,
+    "total_assets": 8398825000,
+    "total_debt": 3066635000,
+    "cash": 1789723000,
+    "operating_expenses": null,
+    "interest_expense": null
+  },
+  {
+    "year": 2021,
+    "source": "SEC_EDGAR",
+    "revenue": 3230775000,
+    "net_income": 14774000,
+    "total_assets": 8540025000,
+    "total_debt": 2975823000,
+    "cash": 1333507000,
+    "operating_expenses": null,
+    "interest_expense": null
+  },
+  {
+    "year": 2022,
+    "source": "SEC_EDGAR",
+    "revenue": 5068447000,
+    "net_income": -554150000,
+    "total_assets": 9184774000,
+    "total_debt": 3200376000,
+    "cash": 1346350000,
+    "operating_expenses": null,
+    "interest_expense": null
+  },
+  {
+    "year": 2023,
+    "source": "SEC_EDGAR",
+    "revenue": 5362549000,
+    "net_income": -447464000,
+    "total_assets": 9417237000,
+    "total_debt": 3055221000,
+    "cash": 865211000,
+    "operating_expenses": null,
+    "interest_expense": null
+  },
+  {
+    "year": 2024,
+    "source": "SEC_EDGAR",
+    "revenue": 4913421000,
+    "net_income": -1229495000,
+    "total_assets": 9595178000,
+    "total_debt": 1761215000,
+    "cash": 902057000,
+    "operating_expenses": null,
+    "interest_expense": null
+  }
+]

@@ -61,3 +61,63 @@ def get_summary():
         f"XGBoost cross-val AUC: {s['xgb_cv_auc']} — Cox concordance index: {s['cox_concordance']}",
     ]
     return s
+
+
+@app.get("/api/lstm")
+def get_lstm():
+    return _load_json("lstm_results.json")
+
+
+@app.get("/api/sentiment")
+def get_sentiment():
+    return _load_json("sentiment_results.json")
+
+
+@app.get("/api/ensemble")
+def get_ensemble():
+    return _load_json("ensemble_results.json")
+
+
+@app.get("/api/shap")
+def get_shap():
+    data = _load_json("xgboost_results.json")
+    shap_values = data["shap_values"]
+
+    # Build waterfall structure for the worst year (2023)
+    waterfall = []
+    cumulative = 0.0
+    for item in shap_values:
+        direction = item["direction"]
+        signed_value = item["mean_abs_shap"] if direction == "risk" else -item["mean_abs_shap"]
+        cumulative += signed_value
+        waterfall.append({
+            "feature": item["feature"],
+            "shap_value": round(signed_value, 4),
+            "direction": direction,
+            "cumulative": round(cumulative, 4),
+        })
+
+    return {
+        "year": 2023,
+        "shap_values": shap_values,
+        "waterfall": waterfall,
+    }
+
+
+@app.get("/api/edgar")
+def get_edgar():
+    df = pd.read_csv(os.path.join(DATA_DIR, "spirit_edgar_full.csv"))
+    return df.to_dict(orient="records")
+
+
+@app.get("/api/health")
+def get_health():
+    if os.path.exists(MODELS_DIR):
+        models = [
+            f.replace(".json", "")
+            for f in os.listdir(MODELS_DIR)
+            if f.endswith(".json")
+        ]
+    else:
+        models = []
+    return {"status": "ok", "models": sorted(models)}

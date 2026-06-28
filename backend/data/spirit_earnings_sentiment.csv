@@ -1,0 +1,43 @@
+date,quarter,source,speaker,quote,category
+2019-07-24,2019-Q2,Earnings Call,CEO Ted Christie,"We continue to see strong demand across our network and our ULCC model remains the most compelling value proposition in the industry.",positive
+2019-10-23,2019-Q3,Earnings Call,CFO Scott Haralson,"Our balance sheet is in great shape and we have ample liquidity to continue executing on our fleet growth strategy.",positive
+2020-04-30,2020-Q1,Earnings Call,CEO Ted Christie,"COVID-19 has created unprecedented challenges. We have taken immediate and decisive action to preserve cash and protect our business.",negative
+2020-07-29,2020-Q2,Earnings Call,CEO Ted Christie,"While we saw bookings begin to recover in June, the recovery remains uncertain and we are operating in a very challenging environment.",negative
+2020-10-28,2020-Q3,Earnings Call,CFO Scott Haralson,"We ended the quarter with approximately $1.4 billion in liquidity, providing us a substantial runway as we navigate through this crisis.",neutral
+2021-02-03,2020-Q4,Earnings Call,CEO Ted Christie,"As we look ahead to 2021, we are optimistic about the recovery but remain cautious given the ongoing uncertainty from COVID-19.",neutral
+2021-04-28,2021-Q1,Earnings Call,CEO Ted Christie,"Demand trends are improving and we are seeing a strong leisure travel recovery. We expect to return to profitability in the second half.",positive
+2021-07-28,2021-Q2,Earnings Call,CEO Ted Christie,"We are seeing very strong leisure demand and load factors are recovering quickly. Our ULCC model is well positioned for the recovery.",positive
+2021-10-27,2021-Q3,Earnings Call,CFO Scott Haralson,"Unit costs remain elevated due to higher fuel and labor costs, but we expect improvement as we scale capacity back up.",negative
+2022-01-26,2021-Q4,Earnings Call,CEO Ted Christie,"We are pleased to announce that Frontier Airlines has proposed to merge with Spirit Airlines in an all-stock transaction.",positive
+2022-05-04,2022-Q1,Earnings Call,CEO Ted Christie,"Despite the operational disruptions in the quarter, we remain focused on completing the Frontier merger and creating long-term value.",neutral
+2022-07-27,2022-Q2,Earnings Call,CEO Ted Christie,"JetBlue's offer presents compelling and certain value for our stockholders. We are recommending stockholders support the JetBlue transaction.",positive
+2022-07-27,2022-Q2,Earnings Call,CFO Scott Haralson,"Our operating costs per available seat mile continue to increase due to higher fuel prices and labor costs, creating headwinds to profitability.",negative
+2022-10-26,2022-Q3,Earnings Call,CEO Ted Christie,"The JetBlue acquisition remains on track and we expect to close in the first half of 2023, pending DOJ review.",neutral
+2022-10-26,2022-Q3,Earnings Call,CFO Scott Haralson,"Our CASM-ex fuel increased significantly in the quarter, reflecting higher labor and maintenance costs across the fleet.",negative
+2023-02-08,2022-Q4,Earnings Call,CEO Ted Christie,"We are confident in the strategic and financial merits of the JetBlue transaction and look forward to its completion.",neutral
+2023-02-08,2022-Q4,Earnings Call,CFO Scott Haralson,"Cash and cash equivalents at year end were approximately $1.3 billion. However we continue to monitor our liquidity position carefully.",negative
+2023-05-03,2023-Q1,Earnings Call,CEO Ted Christie,"We are deeply disappointed by the DOJ's decision to seek to block our combination with JetBlue. We will vigorously defend this transaction.",negative
+2023-05-03,2023-Q1,Earnings Call,CFO Scott Haralson,"Our cash position declined in the quarter as we continue to invest in the business. We are evaluating all options to strengthen our balance sheet.",negative
+2023-07-26,2023-Q2,Earnings Call,CEO Ted Christie,"We acknowledge that the operating environment remains challenging. We are taking aggressive cost actions to improve our financial performance.",negative
+2023-07-26,2023-Q2,Earnings Call,CFO Scott Haralson,"We ended the quarter with approximately $760 million in cash. We are focused on reducing our cash burn and improving liquidity.",negative
+2023-10-25,2023-Q3,Earnings Call,CEO Ted Christie,"Following the court ruling blocking the JetBlue merger, we are evaluating all strategic alternatives to maximize stockholder value.",very_negative
+2023-10-25,2023-Q3,Earnings Call,CFO Scott Haralson,"Our cash balance continues to decline. We are in active discussions with our creditors and are exploring all available options.",very_negative
+2024-01-31,2023-Q4,Earnings Call,CEO Ted Christie,"We have reached agreements with certain creditors on debt maturity extensions. We are working hard to stabilize our business.",very_negative
+2024-01-31,2023-Q4,Earnings Call,CFO Scott Haralson,"Our cash position at year end was approximately $865 million. We have significant debt maturities in 2025 that we need to address urgently.",very_negative
+2024-05-08,2024-Q1,Earnings Call,CEO Ted Christie,"We are implementing a comprehensive restructuring plan to right-size our fleet and cost structure for the current environment.",very_negative
+2024-05-08,2024-Q1,Earnings Call,CFO Scott Haralson,"We are in advanced discussions with our bondholders regarding a potential out-of-court debt restructuring. We cannot provide assurance of success.",very_negative
+2024-08-07,2024-Q2,Earnings Call,CEO Ted Christie,"The challenges we face are significant. We are exploring all strategic alternatives including potential sale, merger, or other transactions.",very_negative
+2024-08-07,2024-Q2,Earnings Call,CFO Scott Haralson,"Our liquidity position is very tight. We have approximately $234 million in cash and are burning cash each month.",very_negative
+2019-03-12,2019,News,Reuters,"Spirit Airlines raises 2019 earnings forecast as low fares drive strong demand",positive
+2020-04-01,2020,News,Bloomberg,"Spirit Airlines draws down $275 million revolving credit facility amid COVID-19 crisis",negative
+2021-02-05,2021,News,WSJ,"Spirit Airlines posts smaller-than-expected loss as travel demand picks up",positive
+2022-02-07,2022,News,CNBC,"Frontier Airlines and Spirit Airlines agree to merge in $2.9 billion deal",positive
+2022-07-28,2022,News,Bloomberg,"JetBlue beats out Frontier for Spirit Airlines in $3.8 billion deal",positive
+2022-11-15,2022,News,Reuters,"Spirit Airlines reports third-quarter loss as costs soar, demand falters",negative
+2023-01-19,2023,News,WSJ,"DOJ sues to block JetBlue-Spirit merger citing harm to budget travelers",very_negative
+2023-07-27,2023,News,Bloomberg,"Federal judge blocks JetBlue acquisition of Spirit Airlines",very_negative
+2023-09-12,2023,News,Reuters,"Spirit Airlines warns of potential bankruptcy as losses mount and cash dwindles",very_negative
+2023-11-08,2023,News,CNBC,"Spirit Airlines shares plunge after company warns it may not survive as going concern",very_negative
+2024-05-02,2024,News,Bloomberg,"Spirit Airlines explores bankruptcy filing as debt restructuring talks stall",very_negative
+2024-09-18,2024,News,WSJ,"Spirit Airlines reaches standstill agreement with bondholders, buys time",very_negative
+2024-11-18,2024,News,Reuters,"Spirit Airlines files for Chapter 11 bankruptcy protection",very_negative

@@ -6,6 +6,7 @@ const links = [
   { label: "Financials", href: "#financials" },
   { label: "Signals", href: "#signals" },
   { label: "Models", href: "#models" },
+  { label: "Deep ML", href: "#advanced" },
   { label: "Verdict", href: "#verdict" },
   { label: "3D Dashboard →", href: "/dashboard", highlight: true },
 ];

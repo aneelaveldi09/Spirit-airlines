@@ -1,0 +1,403 @@
+{
+  "quarterly_sentiment": [
+    {
+      "quarter": "2019-Q2",
+      "year": 2019,
+      "compound": 0.7698,
+      "label": "positive",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2019-Q3",
+      "year": 2019,
+      "compound": 0.7717,
+      "label": "positive",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2019-Annual",
+      "year": 2019,
+      "compound": 0.34,
+      "label": "positive",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2020-Q1",
+      "year": 2020,
+      "compound": 0.7003,
+      "label": "negative",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2020-Q2",
+      "year": 2020,
+      "compound": -0.079,
+      "label": "negative",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 0,
+      "n_negative": 1,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2020-Q3",
+      "year": 2020,
+      "compound": -0.6218,
+      "label": "neutral",
+      "distress_signal": "alarm",
+      "n_quotes": 1,
+      "n_positive": 0,
+      "n_negative": 1,
+      "n_very_negative": 1
+    },
+    {
+      "quarter": "2020-Q4",
+      "year": 2020,
+      "compound": -0.4678,
+      "label": "neutral",
+      "distress_signal": "warning",
+      "n_quotes": 1,
+      "n_positive": 0,
+      "n_negative": 1,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2020-Annual",
+      "year": 2020,
+      "compound": -0.2023,
+      "label": "negative",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 0,
+      "n_negative": 1,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2021-Q1",
+      "year": 2021,
+      "compound": 0.7717,
+      "label": "positive",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2021-Q2",
+      "year": 2021,
+      "compound": 0.6032,
+      "label": "positive",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2021-Q3",
+      "year": 2021,
+      "compound": 0.6124,
+      "label": "negative",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2021-Q4",
+      "year": 2021,
+      "compound": 0.5574,
+      "label": "positive",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2021-Annual",
+      "year": 2021,
+      "compound": -0.2732,
+      "label": "positive",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 0,
+      "n_negative": 1,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2022-Q1",
+      "year": 2022,
+      "compound": 0.804,
+      "label": "neutral",
+      "distress_signal": "safe",
+      "n_quotes": 1,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2022-Q2",
+      "year": 2022,
+      "compound": 0.7386,
+      "label": "neutral",
+      "distress_signal": "safe",
+      "n_quotes": 2,
+      "n_positive": 2,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2022-Q3",
+      "year": 2022,
+      "compound": 0.1366,
+      "label": "negative",
+      "distress_signal": "safe",
+      "n_quotes": 2,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2022-Q4",
+      "year": 2022,
+      "compound": 0.4188,
+      "label": "negative",
+      "distress_signal": "safe",
+      "n_quotes": 2,
+      "n_positive": 2,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2022-Annual",
+      "year": 2022,
+      "compound": 0.1329,
+      "label": "neutral",
+      "distress_signal": "safe",
+      "n_quotes": 3,
+      "n_positive": 2,
+      "n_negative": 1,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2023-Q1",
+      "year": 2023,
+      "compound": -0.1908,
+      "label": "negative",
+      "distress_signal": "safe",
+      "n_quotes": 2,
+      "n_positive": 1,
+      "n_negative": 1,
+      "n_very_negative": 1
+    },
+    {
+      "quarter": "2023-Q2",
+      "year": 2023,
+      "compound": 0.55,
+      "label": "negative",
+      "distress_signal": "safe",
+      "n_quotes": 2,
+      "n_positive": 2,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2023-Q3",
+      "year": 2023,
+      "compound": 0.1752,
+      "label": "very_negative",
+      "distress_signal": "safe",
+      "n_quotes": 2,
+      "n_positive": 1,
+      "n_negative": 1,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2023-Q4",
+      "year": 2023,
+      "compound": 0.0,
+      "label": "very_negative",
+      "distress_signal": "safe",
+      "n_quotes": 2,
+      "n_positive": 1,
+      "n_negative": 1,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2023-Annual",
+      "year": 2023,
+      "compound": -0.1953,
+      "label": "very_negative",
+      "distress_signal": "safe",
+      "n_quotes": 4,
+      "n_positive": 1,
+      "n_negative": 3,
+      "n_very_negative": 1
+    },
+    {
+      "quarter": "2024-Q1",
+      "year": 2024,
+      "compound": 0.2689,
+      "label": "very_negative",
+      "distress_signal": "safe",
+      "n_quotes": 2,
+      "n_positive": 2,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2024-Q2",
+      "year": 2024,
+      "compound": 0.1366,
+      "label": "very_negative",
+      "distress_signal": "safe",
+      "n_quotes": 2,
+      "n_positive": 1,
+      "n_negative": 0,
+      "n_very_negative": 0
+    },
+    {
+      "quarter": "2024-Annual",
+      "year": 2024,
+      "compound": 0.1403,
+      "label": "very_negative",
+      "distress_signal": "safe",
+      "n_quotes": 3,
+      "n_positive": 2,
+      "n_negative": 1,
+      "n_very_negative": 0
+    }
+  ],
+  "key_moments": [
+    {
+      "date": "2023-01-19",
+      "quarter": "2023-Annual",
+      "speaker": "WSJ",
+      "source": "News",
+      "quote": "DOJ sues to block JetBlue-Spirit merger citing harm to budget travelers",
+      "compound": -0.7506,
+      "distress_signal": "alarm",
+      "category_raw": "very_negative"
+    },
+    {
+      "date": "2023-05-03",
+      "quarter": "2023-Q1",
+      "speaker": "CEO Ted Christie",
+      "source": "Earnings Call",
+      "quote": "We are deeply disappointed by the DOJ's decision to seek to block our combination with JetBlue. We will vigorously defend this transaction.",
+      "compound": -0.6997,
+      "distress_signal": "alarm",
+      "category_raw": "negative"
+    },
+    {
+      "date": "2020-10-28",
+      "quarter": "2020-Q3",
+      "speaker": "CFO Scott Haralson",
+      "source": "Earnings Call",
+      "quote": "We ended the quarter with approximately $1.4 billion in liquidity, providing us a substantial runway as we navigate through this crisis.",
+      "compound": -0.6218,
+      "distress_signal": "alarm",
+      "category_raw": "neutral"
+    },
+    {
+      "date": "2021-02-03",
+      "quarter": "2020-Q4",
+      "speaker": "CEO Ted Christie",
+      "source": "Earnings Call",
+      "quote": "As we look ahead to 2021, we are optimistic about the recovery but remain cautious given the ongoing uncertainty from COVID-19.",
+      "compound": -0.4678,
+      "distress_signal": "warning",
+      "category_raw": "neutral"
+    },
+    {
+      "date": "2024-05-02",
+      "quarter": "2024-Annual",
+      "speaker": "Bloomberg",
+      "source": "News",
+      "quote": "Spirit Airlines explores bankruptcy filing as debt restructuring talks stall",
+      "compound": -0.3818,
+      "distress_signal": "warning",
+      "category_raw": "very_negative"
+    },
+    {
+      "date": "2023-09-12",
+      "quarter": "2023-Annual",
+      "speaker": "Reuters",
+      "source": "News",
+      "quote": "Spirit Airlines warns of potential bankruptcy as losses mount and cash dwindles",
+      "compound": -0.34,
+      "distress_signal": "warning",
+      "category_raw": "very_negative"
+    },
+    {
+      "date": "2021-02-05",
+      "quarter": "2021-Annual",
+      "speaker": "WSJ",
+      "source": "News",
+      "quote": "Spirit Airlines posts smaller-than-expected loss as travel demand picks up",
+      "compound": -0.2732,
+      "distress_signal": "safe",
+      "category_raw": "positive"
+    },
+    {
+      "date": "2022-11-15",
+      "quarter": "2022-Annual",
+      "speaker": "Reuters",
+      "source": "News",
+      "quote": "Spirit Airlines reports third-quarter loss as costs soar, demand falters",
+      "compound": -0.2732,
+      "distress_signal": "safe",
+      "category_raw": "negative"
+    },
+    {
+      "date": "2020-04-01",
+      "quarter": "2020-Annual",
+      "speaker": "Bloomberg",
+      "source": "News",
+      "quote": "Spirit Airlines draws down $275 million revolving credit facility amid COVID-19 crisis",
+      "compound": -0.2023,
+      "distress_signal": "safe",
+      "category_raw": "negative"
+    },
+    {
+      "date": "2024-01-31",
+      "quarter": "2023-Q4",
+      "speaker": "CFO Scott Haralson",
+      "source": "Earnings Call",
+      "quote": "Our cash position at year end was approximately $865 million. We have significant debt maturities in 2025 that we need to address urgently.",
+      "compound": -0.1779,
+      "distress_signal": "safe",
+      "category_raw": "very_negative"
+    }
+  ],
+  "summary": {
+    "total_quotes_analyzed": 42,
+    "quarters_covered": 26,
+    "overall_mean_compound": 0.2094,
+    "alarm_quarters": [
+      "2020-Q3"
+    ],
+    "warning_quarters": [
+      "2020-Q4"
+    ]
+  }
+}
