@@ -52,8 +52,10 @@ export function VideoText({
 
   const dataUrlMask = `url("data:image/svg+xml,${encodeURIComponent(svgMask)}")`;
 
+  const Tag = Component as React.ComponentType<React.HTMLAttributes<HTMLElement>>;
+
   return (
-    <Component className={cn("relative size-full", className)}>
+    <Tag className={cn("relative size-full", className)}>
       <div
         className="absolute inset-0 flex items-center justify-center"
         style={{
@@ -79,6 +81,6 @@ export function VideoText({
         </video>
       </div>
       <span className="sr-only">{content}</span>
-    </Component>
+    </Tag>
   );
 }
